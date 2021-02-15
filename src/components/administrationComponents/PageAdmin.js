@@ -1,6 +1,6 @@
 //OUTER
 import React from "react";
-import { Component } from "react";
+import {Component} from "react";
 import Menu from "../managerComponents/managerComponents/Menu/Menu";
 import HeaderInfo from "../managerComponents/managerComponents/HeaderInfo/HeaderInfo";
 import {Route, Switch} from "react-router";
@@ -15,20 +15,22 @@ import Userdata from "../managerComponents/managerComponents/routeComponents/Use
 import Orders from "../managerComponents/managerComponents/routeComponents/Orders/Orders";
 import StartPage from "../managerComponents/managerComponents/routeComponents/StartPage/StartPage";
 
+
 //LOCAL
 
 
 class PageAdmin extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = {};
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+  }
 
   render() {
     return (
+
       <div id="manager-app__container">
         <div className="manager-body_container">
           <Menu/>
@@ -50,12 +52,10 @@ class PageAdmin extends Component {
             </Switch>
           </div>
         </div>
+
       </div>
     );
   }
 }
-
-
-
 
 export default PageAdmin;
