@@ -1,6 +1,6 @@
 //OUTER
 import React from "react";
-import { Component } from "react";
+import {Component} from "react";
 
 //LOCAL
 
@@ -8,22 +8,27 @@ import { Component } from "react";
 class PageAdmin extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = {};
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+  }
 
   render() {
     return (
-      <div >
-        hello admin
+      <div>
+        <form>
+          <input type='text'/>
+          <input type='text'/>
+          <input type='text'/>
+          <input type='text'/>
+        </form>
       </div>
-    );
+  );
   }
-}
+  }
 
 
 
 
-export default PageAdmin;
+  export default PageAdmin;
