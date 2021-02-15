@@ -1,0 +1,32 @@
+.header_info {
+    width: 80vw;
+    padding-right: 5vw;
+    height: 5vh;
+    background: #61dafb;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__info-user-block {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000000;
+    font-weight: bold;
+}
+
+.header__missing-message-block {
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #b811e5;
+    cursor: pointer;
+    color: #101010;
+    font-weight: bold;
+    margin-right: 2vw;
+}
