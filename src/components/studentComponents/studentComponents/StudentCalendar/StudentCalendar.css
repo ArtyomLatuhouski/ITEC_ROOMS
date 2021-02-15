@@ -1,0 +1,28 @@
+.stud-calend__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 77vw;
+    height: 95vh;
+    background-color: teal;
+}
+
+.stud-calend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 30vh;
+    background-color: #fff;
+}
+
+.stud-calend__item-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: tomato;
+}

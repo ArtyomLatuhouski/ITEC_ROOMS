@@ -1,0 +1,298 @@
+@font-face {
+  font-family: HelveticaNeueCyr-Medium; /* Гарнитура шрифта */
+  src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr-Light; /* Гарнитура шрифта */
+  src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: IBMP lex Sans; /* Гарнитура шрифта */
+  src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf); /* Путь к файлу со шрифтом */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IBM Plex Sans; /* Гарнитура шрифта */
+  src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf); /* Путь к файлу со шрифтом */
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IBM Plex Sans; /* Гарнитура шрифта */
+  src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IBM Plex Sans; /* Гарнитура шрифта */
+  src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-Thin.ttf); /* Путь к файлу со шрифтом */
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IBM Plex Sans; /* Гарнитура шрифта */
+  src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf); /* Путь к файлу со шрифтом */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IBM Plex Sans; /* Гарнитура шрифта */
+  src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf); /* Путь к файлу со шрифтом */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IBM Plex Sans; /* Гарнитура шрифта */
+  src: url(../fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf); /* Путь к файлу со шрифтом */
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+footer, header, aside {
+  display: block;
+}
+
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+  line-height: 1;
+  font-size: 10px;
+  overflow-x: hidden;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+
+
+button:hover {
+  background: #A20C20;
+}
+
+
+.container__enter {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.enter__image {
+  width: 2.6vw;
+  height: 4.791vw;
+  margin-bottom: 1.04vw;
+}
+
+.enter_img {
+  width: 100%;
+  height: 100%;
+}
+
+.enter__title {
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.56vw;
+  line-height: 1.927vw;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 2.08vw;
+}
+
+.enter__input {
+  width: 16.6vw;
+  height: 2.45vw;
+  background: #BDC3C7;
+  -webkit-box-shadow: 0 4px 4px #686868;
+  box-shadow: 0 4px 4px #686868;
+  border-radius: 5px;
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.88vw;
+  line-height: 1.45vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  padding: 0.73vw 0.78vw;
+}
+
+.enter-form__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.enter-form__wrapper .enter__input:nth-child(1) {
+  margin-bottom: 1.04vw;
+}
+
+form .enter-form__wrapper:nth-child(2) {
+  margin-top: 2.08vw;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+label {
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.78vw;
+  line-height: 0.99vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000000;
+}
+
+.enter-form__wrapper:nth-child(2) input:nth-child(1) {
+  margin-right: 0.52vw;
+}
+
+.enter-form__wrapper:nth-child(2) input:nth-child(2) {
+  font-family: IBM Plex Sans, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.78vw;
+  line-height: 1.4vw;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0.26vw 1.3vw;
+  background: #B00D23;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1366px) {
+  .enter__image {
+    width: 3.66vw;
+    height: 6.74vw;
+    margin-bottom: 1.46vw;
+  }
+  .enter__title {
+    font-size: 2.19vw;
+    line-height: 2.7vw;
+    margin-bottom: 2.93vw;
+  }
+  .enter__input {
+    width: 23.42vw;
+    height: 3.44vw;
+    font-size: 1.24vw;
+    line-height: 1.61vw;
+    padding: 1.024vw 1.098vw;
+  }
+  .enter-form__wrapper .enter__input:nth-child(1) {
+    margin-bottom: 1.46vw;
+  }
+  form .enter-form__wrapper:nth-child(2) {
+    margin-top: 2.93vw;
+  }
+  label {
+    font-size: 1.098vw;
+    line-height: 1.39vw;
+  }
+  .enter-form__wrapper:nth-child(2) input:nth-child(1) {
+    margin-right: 0.73vw;
+  }
+  .enter-form__wrapper:nth-child(2) input:nth-child(2) {
+    font-size: 1.098vw;
+    line-height: 1.39vw;
+    padding: 0.36vw 1.83vw;
+  }
+}

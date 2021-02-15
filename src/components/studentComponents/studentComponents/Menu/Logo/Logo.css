@@ -1,0 +1,15 @@
+.logo__wrapper {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.active, .logo-noactive {
+    text-decoration: none;
+    color: black;
+}

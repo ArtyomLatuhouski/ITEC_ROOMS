@@ -1,0 +1,48 @@
+
+
+
+.container__menu {
+  left: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  width: 14.63vw;
+  height: 100vh;
+  padding: 1.25vw 0 0 0;
+  background: #acf696;
+  box-shadow: 0 0 20px rgba(63, 64, 79, 0.05);
+  border-radius: 0 10px 10px 0;
+}
+.container__menu {
+   width: 22.5vw;
+   padding: 1.757vw 0 0 0;
+ }
+
+.menu__logo {
+  font-size: 1vw;
+  line-height: 0.73vw;
+  color: #1C1D25;
+  margin-bottom: 2.5vw;
+  padding-left: 1.66vw;
+  span{
+    font-size: 1.5vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.05em;
+    color: #1C1D25;
+  }
+}
+
+.menu {
+  padding-bottom: 5.85vw;
+}
+
+.menu__link {
+  font-size: 1.171vw;
+  line-height: 1.171vw;
+  padding: 1.39vw 0 1.39vw 4.173vw;
+}
+.menu__item{
+  background: #ffffff no-repeat 2.342vw;
+  background-size: 1.171vw 1.171vw;
+}

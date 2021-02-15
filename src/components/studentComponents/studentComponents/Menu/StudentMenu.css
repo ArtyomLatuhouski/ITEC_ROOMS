@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.studentMenu__container {
+    width: 23vw;
+    height: 100vh;
+    padding-top: 20px;
+    background: #acf696;
+}
+
+.studentMenu__logo {
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+

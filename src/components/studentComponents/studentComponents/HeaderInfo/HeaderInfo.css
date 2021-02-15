@@ -1,0 +1,26 @@
+.student__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    box-sizing: border-box;
+    width: 77vw;
+    height: 5vh;
+    background-color: aqua;
+}
+
+.student__title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.student__face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;    
+    background-color: tomato;
+    font-weight: bold;
+}
