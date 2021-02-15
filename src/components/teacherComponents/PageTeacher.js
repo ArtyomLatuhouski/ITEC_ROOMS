@@ -35,15 +35,16 @@ class PageTeacher extends Component {
           <HeaderInfo/>
           <div className="components__container_teacher">
             {/*<Switch>*/}
-            <Route path='/academic_calendar' render={() => <AcademicCalendar/>}/>
-            <Route path='/educational_process' render={() => <EducationProcess/>}/>
-            <Route path='/chat' render={() => <Chat/>}/>
-            <Route path='/administrator_connection' render={() => <AdministratorConnection/>}/>
-            <Route path='/teachers' render={() => <Teachers/>}/>
-            <Route path='/school_news' render={({match, location}) => <SchoolNews match={match} location={location}/>}/>
-            <Route path='/my_services' render={() => <MyServices/>}/>
-            <Route path='/profile' render={() => <Profile/>}/>
+            <Route path='/1' render={() => <AcademicCalendar/>}/>
+            <Route path='/2' render={() => <EducationProcess/>}/>
+            <Route path='/3' render={() => <Chat/>}/>
+            <Route path='/4' render={() => <AdministratorConnection/>}/>
+            <Route path='/5' render={() => <Teachers/>}/>
+            <Route path='/6' render={({match, location}) => <SchoolNews match={match} location={location}/>}/>
+            <Route path='/7' render={() => <MyServices/>}/>
+            <Route path='/8' render={() => <Profile/>}/>
             <Route exact path='/' render={() => <p>Main Page</p>}/>
+
             {/*</Switch>*/}
           </div>
         </div>
